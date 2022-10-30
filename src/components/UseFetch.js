@@ -1,24 +1,22 @@
-import React, { useState, useEffect } from 'react';
+/* eslint-disable quotes */
+/* eslint-disable no-unused-vars */
+/* import React, { useState, useEffect } from "react";
 
 const useFetch = (url) => {
+  const [info, setInfo] = useState([]);
 
-    const [info, setInfo] = useState([]);
+  useEffect(() => {
+    async function getInfoPoke() {
+      const response = await fetch(url);
+      const data = await response.json();
 
-    useEffect(() => {
-        async function getInfoPoke() {
-            const response = await fetch(url);
-            const data = await response.json();
+      setInfo(data.results);
+    }
 
-            setInfo(data.results);
-            
-        }
+    getInfoPoke();
+  }, []);
 
-        getInfoPoke();
-   
-    }, []);
+  return info;
+};
 
-    return info
-
-}
-
-export default useFetch;
+export default useFetch; */
